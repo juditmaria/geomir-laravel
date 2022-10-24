@@ -2,3 +2,5 @@ composer
 composer.phar
 composer.lock
 /vendor
+.env
+mysql-client-key.pem

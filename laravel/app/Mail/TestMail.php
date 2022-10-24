@@ -19,6 +19,7 @@ class TestMail extends Mailable
      * @return void
      */
     public function __construct(array $content)
+<<<<<<< HEAD
     {
 	$this-> content = $content;
     }
@@ -29,6 +30,18 @@ class TestMail extends Mailable
     return $this->markdown('mails.testmail')
 	->with('content', $this->content);
     }
+=======
+   {
+       $this->content = $content;
+   }
+ 
+   public function build()
+   {
+       // pass here your email template file
+       return $this->markdown('mails.testmail')
+           ->with('content', $this->content);
+   }
+>>>>>>> d1e2229e85fa2d1352d814a202308706b5e2603a
 
     /**
      * Get the message envelope.
