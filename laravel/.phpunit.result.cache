@@ -1,1 +1,0 @@
-{"version":1,"defects":{"Tests\\Feature\\DbTest::test_admin_v1":3,"Tests\\Feature\\DbTest::test_admin_v2":3},"times":{"Tests\\Feature\\DbTest::test_admin_v1":0.538,"Tests\\Feature\\DbTest::test_admin_v2":0.503}}
