@@ -7,7 +7,7 @@
 @endif
 @if ($message = Session::get('warning'))
   @include('flash-message', ['type' => "warning", 'message' => $message])
-  @endif
+@endif
 @if ($message = Session::get('info'))
   @include('flash-message', ['type' => "info", 'message' => $message])
 @endif

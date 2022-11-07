@@ -1,4 +1,4 @@
-<!-- @extends('layouts.app')
+@extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -15,23 +15,9 @@
                     @endif
 
                     {{ __('You are logged in!') }}
-                </div>
-                @extends('layouts.app')
- 
-
-
-                </div>
+               </div>
             </div>
         </div>
     </div>
 </div>
-@endsection -->
-<x-app-layout>
-    x-slot name="header"
-    
-
-
-</x-app-layout>
-
-
-
+@endsection
